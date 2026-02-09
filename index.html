@@ -4,96 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pratheepa | Data Analyst Portfolio</title>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
     <style>
         body {
+            font-family: Arial, sans-serif;
             margin: 0;
-            font-family: 'Poppins', sans-serif;
-            background: #f7f9fc;
+            padding: 0;
+            background-color: #f8f9fa;
             color: #333;
         }
-
         header {
-            background: linear-gradient(120deg, #6a5acd, #7b68ee);
+            background-color: #6a5acd;
             color: white;
-            padding: 80px 20px;
             text-align: center;
+            padding: 60px 20px;
         }
-
         header h1 {
-            font-size: 42px;
-            margin: 0;
-            font-weight: 700;
+            font-size: 38px;
+            margin-bottom: 10px;
         }
-
         header p {
             font-size: 18px;
-            margin-top: 10px;
+            margin-bottom: 20px;
         }
-
+        .btn-main {
+            background-color: #fff;
+            color: #6a5acd;
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
         .section {
-            padding: 60px 20px;
+            padding: 50px 20px;
             max-width: 900px;
             margin: auto;
         }
-
         h2 {
             text-align: center;
             color: #6a5acd;
-            font-size: 28px;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
-
-        .skills-list, .project-card {
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-            margin-bottom: 20px;
-        }
-
-        .skills-tags span {
+        .skills span {
             display: inline-block;
-            margin: 5px;
             background: #6a5acd;
-            color: white;
+            color: #fff;
             padding: 8px 14px;
+            margin: 6px;
             border-radius: 20px;
             font-size: 14px;
         }
-
-        .project-card h3 {
-            margin: 0;
-            font-size: 20px;
-            color: #333;
+        .projects .project-card {
+            background: #fff;
+            padding: 18px;
+            border-radius: 10px;
+            margin-bottom: 18px;
+            box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
         }
-
-        .project-card p {
-            margin-top: 8px;
-            font-size: 15px;
-        }
-
-        .btn {
-            display: inline-block;
-            margin-top: 14px;
-            padding: 10px 20px;
-            background: #6a5acd;
-            color: white;
+        .projects a {
             text-decoration: none;
-            border-radius: 8px;
-            font-weight: 600;
+            color: #6a5acd;
+            font-weight: bold;
         }
-
         footer {
             text-align: center;
             padding: 30px 10px;
-            background: #eee;
-            margin-top: 40px;
+            font-size: 14px;
+            background: #e9ecef;
         }
-
     </style>
 </head>
 
@@ -101,64 +78,80 @@
 
 <header>
     <h1>Pratheepa</h1>
-    <p>Data Analyst | SQL • Python • Excel • Power BI | Turning Data Into Business Strategy</p>
-    <a class="btn" href="https://www.linkedin.com/in/pratheepa-sanjeev-5b48b2205/" target="_blank">LinkedIn Profile</a>
-    <a class="btn" href="https://github.com/anupratheepa" target="_blank" style="background:#483d8b;">GitHub</a>
+    <p>Strategic Data Analyst | SQL • Python • Power BI • Microsoft Excel</p>
+    <a class="btn-main" href="https://www.linkedin.com/in/pratheepa-sanjeev-5b48b2205/" target="_blank">View LinkedIn</a>
 </header>
 
 <section class="section">
     <h2>About Me</h2>
-    <div class="skills-list">
-        <p>
-            I am a data-driven professional transitioning from technical execution to strategic business impact. 
-            I use SQL, Excel, Python, and Power BI to help organizations make smarter decisions, improve operations, 
-            and discover new opportunities through insights.  
-            I aim to build a career where analytics drives business strategy and leadership decisions.
-        </p>
-    </div>
+    <p>
+        Hi! I’m a data professional focused on creating business impact through analytics. I analyze data using SQL,
+        Python, Power BI, and Excel to help organizations make smarter decisions and solve real problems. 
+        I am passionate about turning raw data into insights that drive strategic outcomes.
+    </p>
 </section>
 
 <section class="section">
     <h2>Skills</h2>
-    <div class="skills-list skills-tags">
+    <div class="skills">
         <span>SQL</span>
         <span>Python</span>
         <span>Power BI</span>
-        <span>Microsoft Excel</span>
-        <span>EDA</span>
+        <span>Excel</span>
         <span>Data Visualization</span>
-        <span>Problem Solving</span>
+        <span>EDA</span>
     </div>
 </section>
 
-<section class="section">
-    <h2>Projects</h2>
+<section class="section projects">
+    <h2>Featured Projects</h2>
 
     <div class="project-card">
-        <h3>📊 Instagram Performance Analysis (Python)</h3>
-        <p>Analyzed Instagram profile metrics using Python, identifying engagement trends, performance gaps, and content insights.</p>
-        <a class="btn" href="https://github.com/anupratheepa" target="_blank">View Project</a>
+        <h3>📈 VIVA-CALIF Sales Dashboard</h3>
+        <p>Interactive dashboard for sales & operations performance insights.</p>
+        <a href="https://github.com/anupratheepa/VIVA-CALIF-Sales-Operations-Performance-Dashboard" target="_blank">
+            View on GitHub
+        </a>
     </div>
 
     <div class="project-card">
-        <h3>🔥 Fire Hazard & Rescue Analysis</h3>
-        <p>Worked on risk analysis and data mapping for fire hazard identification and rescue prediction.</p>
-        <a class="btn" href="https://github.com/anupratheepa" target="_blank">View Project</a>
+        <h3>🛒 Meesho Order Analytics (SQL)</h3>
+        <p>SQL-driven analysis of order patterns & metrics from Meesho data.</p>
+        <a href="https://github.com/anupratheepa/Meesho-s-Order-Analytics-Using-SQL" target="_blank">
+            View on GitHub
+        </a>
+    </div>
+
+    <div class="project-card">
+        <h3>📊 Flipkart E-commerce Analysis</h3>
+        <p>Exploratory analysis of Flipkart e-commerce data using SQL & visual insights.</p>
+        <a href="https://github.com/anupratheepa/FLIPKART-E-COMMERCE-PERFORMANCE-ANALYSIS" target="_blank">
+            View on GitHub
+        </a>
+    </div>
+
+    <div class="project-card">
+        <h3>📱 Instagram Reach Analysis</h3>
+        <p>Python analysis of Instagram engagement & reach statistics.</p>
+        <a href="https://github.com/anupratheepa/Instagram-Reach-Analysis" target="_blank">
+            View on GitHub
+        </a>
     </div>
 
 </section>
 
 <section class="section">
     <h2>Contact</h2>
-    <div class="skills-list">
-        <p>Email: <b>your-email@example.com</b></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/pratheepa-sanjeev-5b48b2205/" target="_blank">Click Here</a></p>
-        <p>GitHub: <a href="https://github.com/anupratheepa" target="_blank">github.com/anupratheepa</a></p>
-    </div>
+    <p>
+        💌 Email: <b>your-email@example.com</b><br>
+        💼 LinkedIn: <a href="https://www.linkedin.com/in/pratheepa-sanjeev-5b48b2205/" target="_blank">
+        linkedin.com/in/pratheepa-sanjeev-5b48b2205</a><br>
+        🔗 GitHub: <a href="https://github.com/anupratheepa" target="_blank">github.com/anupratheepa</a>
+    </p>
 </section>
 
 <footer>
-    © 2025 • Built by Pratheepa | Hosted on GitHub Pages
+    © 2026 Pratheepa Sanjeev — Hosted with ❤️ on GitHub Pages
 </footer>
 
 </body>
